@@ -1,0 +1,32 @@
+config.load_autoconfig(False)
+c.tabs.position = "top"
+c.completion.shrink = True
+c.url.start_pages = "https://start.duckduckgo.com"
+c.content.javascript.enabled = False
+c.content.javascript.alert = False
+c.content.javascript.prompt = False
+c.content.images = True
+c.colors.webpage.darkmode.enabled = True
+c.colors.webpage.darkmode.policy.page = "always"
+c.colors.webpage.darkmode.policy.images = "never"
+c.content.desktop_capture = False
+c.content.autoplay = False
+c.content.blocking.enabled = True
+c.content.cookies.accept = "never"
+c.content.notifications.enabled = False
+c.downloads.position = "top"
+c.hints.mode = "letter"
+c.statusbar.position = "bottom"
+c.statusbar.show = "in-mode"
+c.keyhint.delay = 0
+c.scrolling.bar = "overlay"
+c.scrolling.smooth = False
+c.tabs.show_switching_delay = 0
+c.url.default_page = "https://start.duckduckgo.com"
+c.url.searchengines = {"DEFAULT": "https://duckduckgo.com/?q={}"}
+c.colors.webpage.darkmode.policy.page = "always"
+c.statusbar.widgets = ["keypress", "url"]
+c.colors.webpage.preferred_color_scheme = "dark"
+c.content.blocking.method = "auto"
+c.content.cookies.store = False
+c.content.geolocation = False

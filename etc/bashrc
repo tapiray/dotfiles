@@ -1,0 +1,5 @@
+[[ $- != *i* ]] && return
+
+export PS1="\W $ "
+
+alias ls="ls -A --classify=auto --group-directories-first"
