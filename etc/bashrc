@@ -1,5 +1,5 @@
 [[ $- != *i* ]] && return
 
-export PS1="\W $ "
+export PS1="\e[0m\W $ "
 
 alias ls="ls -A --classify=auto --group-directories-first"
