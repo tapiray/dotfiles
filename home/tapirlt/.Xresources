@@ -5,7 +5,7 @@ XTerm.termName: xterm-256color
 XTerm*VT100.geometry: 80x27
 
 ! ## Set font and fontsize ##
-XTerm*faceName: DejaVu Sans Mono
+XTerm*faceName: Hack
 XTerm*faceSize: 10
 
 ! VT Font Menu: Unreadable
@@ -25,7 +25,7 @@ XTerm*faceSize6: 24
 XTerm*vt100.scrollBar: false
 
 ! Do not scroll when there is new input
-XTerm*scrollTtyOutput: false
+XTerm*scrollTtyOutput: true
 
 ! Scrolling by using Shift-PageUp / Shift-PageDown or mousewheel by default ##
 ! Lines of output you can scroll back over
