@@ -24,9 +24,10 @@ c.scrolling.smooth = False
 c.tabs.show_switching_delay = 0
 c.url.default_page = "https://start.duckduckgo.com"
 c.url.searchengines = {"DEFAULT": "https://duckduckgo.com/?q={}"}
-c.colors.webpage.darkmode.policy.page = "always"
 c.statusbar.widgets = ["keypress", "url"]
 c.colors.webpage.preferred_color_scheme = "dark"
 c.content.blocking.method = "auto"
 c.content.cookies.store = False
 c.content.geolocation = False
+c.fonts.web.size.default = 20
+c.fonts.web.size.default_fixed = 18
