@@ -1,0 +1,53 @@
+XF86AudioMute
+    pactl set-sink-mute 0 toggle
+
+XF86AudioRaiseVolume
+    pactl set-sink-volume 0 +10%
+
+XF86AudioLowerVolume
+    pactl set-sink-volume 0 -10%
+
+XF86MonBrightnessUp
+    intelbacklight -inc 100
+
+XF86MonBrightnessDown
+    intelbacklight -dec 100
+
+super + Return
+    st
+
+super + @space
+    dmenu_run -p "exec: "
+
+alt + {h, j, k, l}
+    bspc node -f {west, south, north, east}
+
+alt + shift + {h, j, k, l}
+    bspc node -s {west, south, north, east}
+
+alt + shift + {Left, Down, Up, Right}
+    bspc node -v {-10 0, 0 10, 0 -10, 10 0}
+
+alt + {Tab, Return, f}
+    bspc node -t {fullscreen, tiled, floating}
+
+alt + ctrl + {h, j, k, l}
+    bspc node -z {left -50 0, bottom 0 50, top 0 -50, right 50 0}
+
+alt + ctrl + shift {h, j, k, l}
+    bspc node -z {right -50 0, top 0 50, bottom 0 -50, left 50 0}
+
+alt + q
+    bspc node -c
+
+alt + ctrl + r
+    bspc wm -r
+
+alt + ctrl + q
+    bspc quit
+
+ctrl + {1-9, 0}
+    bspc desktop -f {1-9, 0}
+
+alt + ctrl {1-9, 0}
+    bspc node -d {1-9, 0} --follow

@@ -1,0 +1,36 @@
+auto-reload yes
+max-items 20
+reload-time 10
+reload-threads 100
+browser w3m
+player mpv
+
+highlight article "^Feed:.*" default
+highlight article "^Title:.*" default
+highlight article "^Author:.*" default
+highlight article "^Date:.*" default
+highlight article "^Link:.*" default
+highlight article "^Flags:.*" default
+highlight article "\\[[0-9][0-9]*\\]" default
+highlight article "\\[image [0-9][0-9]*\\]" default
+highlight article "\\[embedded flash: [0-9][0-9]*\\]" default
+
+unbind-key ENTER
+unbind-key j
+unbind-key DOWN
+unbind-key k
+unbind-key UP
+unbind-key J
+unbind-key K
+unbind-key h
+unbind-key LEFT
+unbind-key H
+unbind-key l
+unbind-key RIGHT
+unbind-key L
+unbind-key q
+
+bind-key j down
+bind-key k up
+bind-key l open
+bind-key h quit
